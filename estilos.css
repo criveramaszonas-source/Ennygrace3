@@ -610,3 +610,26 @@ footer {
     border-top: 4px solid var(--secondary); 
     margin-top: 2rem; 
 }
+ OPTIMIZACIÓN DE TAMAÑO Y DISEÑO PARA EL CÓDIGO QR (CONTACTO)
+   ========================================================================== */
+.qr-container-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: #EDF2F7; /* Fondo gris claro que resalta el QR */
+    border-radius: 6px;
+    margin: 1rem auto;
+    max-width: 180px;          /* Controla el ancho del contenedor */
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.06);
+}
+
+.qr-code-img {
+    width: 100%;               /* Se adapta perfectamente al contenedor */
+    height: auto;
+    max-width: 150px;          /* TAMAÑO EXACTO: Evita que se vea gigante */
+    display: block;
+    border: 4px solid var(--white); /* Marco blanco elegante tipo credencial */
+    border-radius: 4px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave para dar profundidad */
+}
