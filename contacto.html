@@ -10,7 +10,7 @@
     <header>
         <div class="logo-container">
             <h1>Estudio Enny Grace</h1>
-            <p>Conecte con Especialistas en Infraestructura Comercial</p>
+            <p>Constructora & Consultora de Arquitectura Rivera S.R.L.</p>
         </div>
         <nav>
             <ul>
@@ -25,42 +25,79 @@
     </header>
 
     <main>
-        <section class="section-card">
-            <h2>Agende un Diagnóstico de Layout Comercial sin Costo</h2>
-            <div class="grid-2">
-                <form action="#" class="contact-form-layout">
-                    <label>Inversionista / Empresa:</label>
-                    <input type="text" placeholder="Ej. Franquicia Gastronómica Equipetrol" required>
-                    
-                    <label>WhatsApp Técnico de Contacto:</label>
-                    <input type="tel" placeholder="+591 70000000" required>
-                    
-                    <label>Detalles del Local Físico:</label>
-                    <textarea rows="4" placeholder="Indique las dimensiones aproximadas y ubicación..."></textarea>
-                    
-                    <button type="submit" class="btn-submit-form">Solicitar Reunión Técnica</button>
-                </form>
-
-                <div class="contact-info-panel text-center">
-                    <h3>Canal Inmediato de Atención</h3>
-                    <p><strong>Oficinas:</strong> Equipetrol, Calle 9 Este, Santa Cruz de la Sierra, Bolivia.</p>
-                    <p><strong>Correo:</strong> ennygraceriveragonzalez@gmail.com</p>
-                    
-                    <div class="academic-qr-mock">
-                        <h4>ACCESO MÓVIL AL PORTAL</h4>
-                        <div class="qr-box-graphic">
-                            <span class="qr-square">🔳</span>
-                            <p>[ QR - EXAMEN FINAL ]</p>
-                        </div>
-                        <p class="small-text">Escanee este código QR para verificar la navegación adaptativa desde smartphones.</p>
-                    </div>
-                </div>
+        <section class="hero-section">
+            <div class="hero-overlay">
+                <h2 class="hero-main-title">Canales de Atención y Validación Académica</h2>
+                <p class="hero-subtitle">Constructora & Consultora de Arquitectura Rivera S.R.L.</p>
+                <p class="hero-description">Conectando Soluciones de Diseño Comercial con el Éxito Corporativo</p>
             </div>
         </section>
+
+        <div class="grid-2 margin-top-grid">
+            <section class="section-card">
+                <h2>Formulario de Consultas</h2>
+                <p class="intro-text">Solicite una auditoría técnica o cotización de diseño para su próximo espacio retail o corporativo.</p>
+                
+                <form class="contact-form-layout" onsubmit="event.preventDefault(); alert('Mensaje simulado para la defensa académica.');">
+                    <label for="nombre">Nombre Completo / Empresa:</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Ej. Corporación Retail S.A." required>
+                    
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" placeholder="ejemplo@empresa.com" required>
+                    
+                    <label for="telefono">Teléfono / WhatsApp:</label>
+                    <input type="tel" id="telefono" name="telefono" placeholder="Ej. +591 70000000" required>
+                    
+                    <label for="mensaje">Requerimiento del Proyecto:</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" placeholder="Describa brevemente el espacio comercial a optimizar..." required></textarea>
+                    
+                    <button type="submit" class="btn-submit-form">Enviar Solicitud Ejecutiva</button>
+                </form>
+            </section>
+
+            <section class="section-card" style="display: flex; flex-direction: column; justify-content: space-between;">
+                <div>
+                    <h2>Información de la Firma</h2>
+                    <table class="academic-table" style="margin-bottom: 1.5rem;">
+                        <tbody>
+                            <tr>
+                                <td><strong>Ubicación:</strong></td>
+                                <td>Santa Cruz de la Sierra, Bolivia</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Mercado:</strong></td>
+                                <td>Nacional (Enfoque en Canales Modernos y Retail)</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Estructura:</strong></td>
+                                <td>Sociedad de Responsabilidad Limitada (S.R.L.)</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="academic-qr-mock">
+                    <h3 style="color: var(--primary); font-size: 1rem; margin-bottom: 0.4rem; font-weight: 700;">
+                        Validación del Despliegue en Vivo
+                    </h3>
+                    <p class="small-text" style="margin-bottom: 0.8rem; line-height: 1.4;">
+                        Este código QR vincula directamente a los servidores de producción de GitHub Pages, permitiendo la evaluación interactiva en dispositivos móviles según las directrices del Examen Final.
+                    </p>
+                    
+                    <div class="qr-container-image">
+                        <img src="image_cda182.png.jpg" alt="Código QR de Validación GitHub Pages" class="qr-code-img">
+                    </div>
+                    
+                    <p class="small-text" style="text-align: center; margin-top: 0.5rem; font-weight: 600;">
+                        Repositorio: <span style="color: var(--secondary);">/estudio-enny-grace</span>
+                    </p>
+                </div>
+            </section>
+        </div>
     </main>
 
     <footer>
-        <p>© 2026 Estudio Enny Grace - Escuela de Administración y Negocios UDI Santa Cruz Bolivia</p>
+        <p>© 2026 Estudio Enny Grace - Escuela de Administración y Negocios UDI. Todos los derechos reservados.</p>
     </footer>
 </body>
 </html>
